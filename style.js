@@ -46,3 +46,13 @@ window.addEventListener("load", () => {
     dayNight.querySelector("i").classList.add("fa-moon");
   }
 })
+
+
+
+
+var typed = new Typed(".typing", {
+  Strings:["","web dev", "web design", "design"],
+  typeSpeed:100,
+  BackSpeed:60,
+  loop:true
+})
